@@ -1,0 +1,48 @@
+# Standalone field
+greeting = "Hello, world!"
+
+# Tables with various data types
+[player]
+name = "Bob"
+health = 88
+attack = 5
+defence = 10
+birthdate = 1979-05-27
+
+[enemy]
+name = "Sentinel"
+toughness = 9.8
+is_boss = true
+hint = "Try using slash weapons (longsword, scimitar, etc.)"
+
+# Tables with objects
+[shop]
+
+[shop.inventory]
+items = 5
+gold = 100
+
+[shop.keeper]
+name = "Frank"
+age = 50
+
+# Array
+[[weapons]]
+name = "sword"
+attack = 3
+
+[[weapons]]
+name = "bow"
+attack = 2
+
+# Godot Types
+[godot]
+position_2 = "Vector2(5, 10)"
+position_3 = "Vector3(3, 5, 7)"
+background = "Color(255, 255, 255)"
+background_with_alpha = "Color(250, 150, 100, 0.5)"
+living_room = "Rect2(Vector2(5, 10), Vector2(300, 500))"
+yard = "Plane(Vector3(3, 5, 9), 4)"
+location_2 = "Transform2D(Vector2(5, 10), Vector2(10, 15), Vector2(3, 7))"
+matrix = "Basis(Vector3(0, 1, 2), Vector3(4, 5, 6), Vector3(8, 9, 10))"
+location_3 = "Transform(Vector3(8, 9 10), Vector3(0, 2, 5), Vector3(1, 12, 15), Vector3(2, 5, 9))"
